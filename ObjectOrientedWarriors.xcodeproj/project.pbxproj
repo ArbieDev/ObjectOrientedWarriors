@@ -12,6 +12,8 @@
 		62E2B9251D0321430093330A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E2B9231D0321430093330A /* Main.storyboard */; };
 		62E2B9271D0321430093330A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 62E2B9261D0321430093330A /* Assets.xcassets */; };
 		62E2B92A1D0321430093330A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 62E2B9281D0321430093330A /* LaunchScreen.storyboard */; };
+		62E2B9321D0330BA0093330A /* Minecraft.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 62E2B9311D0330BA0093330A /* Minecraft.ttf */; };
+		62E2B9341D0334E10093330A /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 62E2B9331D0334E10093330A /* Player.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		62E2B9261D0321430093330A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		62E2B9291D0321430093330A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		62E2B92B1D0321430093330A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62E2B9311D0330BA0093330A /* Minecraft.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Minecraft.ttf; sourceTree = "<group>"; };
+		62E2B9331D0334E10093330A /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,12 +58,14 @@
 		62E2B91E1D0321430093330A /* ObjectOrientedWarriors */ = {
 			isa = PBXGroup;
 			children = (
+				62E2B9311D0330BA0093330A /* Minecraft.ttf */,
 				62E2B91F1D0321430093330A /* AppDelegate.swift */,
 				62E2B9211D0321430093330A /* ViewController.swift */,
 				62E2B9231D0321430093330A /* Main.storyboard */,
 				62E2B9261D0321430093330A /* Assets.xcassets */,
 				62E2B9281D0321430093330A /* LaunchScreen.storyboard */,
 				62E2B92B1D0321430093330A /* Info.plist */,
+				62E2B9331D0334E10093330A /* Player.swift */,
 			);
 			path = ObjectOrientedWarriors;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				62E2B92A1D0321430093330A /* LaunchScreen.storyboard in Resources */,
 				62E2B9271D0321430093330A /* Assets.xcassets in Resources */,
+				62E2B9321D0330BA0093330A /* Minecraft.ttf in Resources */,
 				62E2B9251D0321430093330A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -135,6 +142,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				62E2B9341D0334E10093330A /* Player.swift in Sources */,
 				62E2B9221D0321430093330A /* ViewController.swift in Sources */,
 				62E2B9201D0321430093330A /* AppDelegate.swift in Sources */,
 			);
@@ -288,6 +296,7 @@
 				62E2B9301D0321430093330A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
